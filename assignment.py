@@ -7,7 +7,7 @@ def format_string(name, age):
     Returns:
         str: Formatted string
     """
-    return (f"My name is {name} and I am {age} years old.")
+    return (f"My name is {name} and I am {age} years old")
 
 def conditional_check(number):
     """
@@ -46,7 +46,7 @@ def list_operations(numbers):
     Returns:
         tuple: (sum, max, min)
     """
-    numbers = [1,2,3,4,5]
+
     sum = 0
     max = numbers[0]
     min = numbers[0]
