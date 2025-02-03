@@ -86,7 +86,8 @@ def set_operations(list1, list2):
     Returns:
         set: Common elements
     """
-    pass
+    ans = set(list1) & set(list2)
+    return ans
 
 def arithmetic_ops(a, b):
     """
@@ -97,7 +98,7 @@ def arithmetic_ops(a, b):
     Returns:
         dict: Results of arithmetic operations
     """
-    pass
+    return {"sum": a+b, "difference":a-b, "product":a*b, "quotient":a/b}
 
 def logical_ops(x, y):
     """
@@ -108,7 +109,8 @@ def logical_ops(x, y):
     Returns:
         dict: Results of logical operations
     """
-    pass
+    return {"and":x and y, "or":x or y, "not_x":not x}
+    
 
 def bitwise_ops(a, b):
     """
@@ -119,4 +121,4 @@ def bitwise_ops(a, b):
     Returns:
         dict: Results of bitwise operations
     """
-    pass
+    return {"and":a & b, "or":a | b, "xor": a ^ b}
